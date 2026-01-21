@@ -24,7 +24,7 @@ As a **Junior Data Analyst**, this project simulates a real-world business scena
 **Dataset Name:** `CustomerSubscription.csv`
 
 📎 **Dataset Link:**  
-[CustomerSubscription.csv](./CustomerSubscription.csv)
+- [CustomerSubscription.csv](./CustomerSubscription.csv)
 
 ### 📋 Dataset Schema
 

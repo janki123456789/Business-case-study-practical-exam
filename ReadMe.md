@@ -24,7 +24,7 @@ As a **Junior Data Analyst**, this project simulates a real-world business scena
 **Dataset Name:** `CustomerSubscription.csv`
 
 📎 **Dataset Link:**  
-[CustomerSubscription.csv](./CustomerSubscription.csv)
+[CustomerSubscription](./CustomerSubscription.csv)
 
 ### 📋 Dataset Schema
 
@@ -64,9 +64,6 @@ The following analyses were performed using SQL:
 6. Top 10 customers with longest subscriptions
 7. Age group-wise churn analysis
 
-📄 **SQL Script:**  
-[ChurnAnalysis.sql](./ChurnAnalysis.sql)
-
 ---
 
 ## 📊 PART 2 – Excel Dashboard
@@ -105,31 +102,7 @@ An interactive Excel dashboard was designed to visually communicate insights.
 - Monthly subscription plans have the highest churn rate
 - Low session attendance is a strong churn predictor
 - Customers giving low feedback scores are more likely to churn
-- Yearly subscribers are the most loyal segment
-
-📄 **Insight Summary:**  
-[ChurnSummary.txt](./ChurnSummary.txt)
-
----
-
-## 💡 Business Recommendations
-
-- Improve engagement for low-session customers
-- Offer retention incentives for monthly subscribers
-- Focus on personalized communication for young users
-- Actively address customer complaints and low feedback
-- Launch re-engagement campaigns for inactive users
-
----
-
-## 🎓 Learning Outcomes
-
-- Practical SQL-based business analysis
-- KPI creation using Excel formulas
-- Building interactive dashboards with slicers
-- Translating data into actionable business insights
-
----
+- Yearly subscribers
 
 ## 📬 Contact
 

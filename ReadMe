@@ -1,0 +1,141 @@
+# 📊 Turning Losses into Loyalty: Customer Churn Analysis
+
+---
+
+## 🚀 Project Overview
+This project focuses on analyzing **customer churn risk** in a **subscription-based fitness & wellness service** (yoga, gym, nutrition). The analysis converts raw customer data into **business insights** using **SQL for analysis** and **Microsoft Excel for dashboarding**.
+
+The objective is to help management **reduce churn and increase customer loyalty** by understanding customer behavior patterns.
+
+---
+
+## 🧠 Business Case Context
+Customer churn directly impacts revenue and growth. Management raised concerns such as:
+- Why are customers leaving?
+- Which subscription plans have higher churn?
+- Can churn be predicted using engagement and feedback?
+
+As a **Junior Data Analyst**, this project simulates a real-world business scenario where data-driven decisions are required.
+
+---
+
+## 📁 Dataset Details
+
+**Dataset Name:** `CustomerSubscription.csv`
+
+📎 **Dataset Link:**  
+[CustomerSubscription.csv](./CustomerSubscription.csv)
+
+### 📋 Dataset Schema
+
+| Column Name | Description |
+|------------|-------------|
+| CustomerID | Unique customer ID |
+| Name | Customer name |
+| Age | Age of customer |
+| Gender | Male / Female / Other |
+| SubscriptionType | Monthly / Quarterly / Yearly |
+| SubscriptionDate | Subscription start date |
+| LastLoginDate | Last login date |
+| TotalSessions | Total sessions attended |
+| FeedbackScore | Rating from 1–10 |
+| IsChurned | 1 = Churned, 0 = Active |
+
+---
+
+## 🛠 Tools & Technologies
+
+- **MySQL** – Data extraction & analysis
+- **Microsoft Excel** – Dashboard & visualization
+- **Pivot Tables & Charts** – KPI analysis
+- **GitHub Markdown** – Documentation
+
+---
+
+## 🧪 PART 1 – SQL Analysis
+
+The following analyses were performed using SQL:
+
+1. Total active vs churned customers (by Subscription Type)
+2. Average feedback score by Subscription Type and Gender
+3. Customers with <5 sessions and feedback <5
+4. Customers inactive for more than 60 days
+5. Churn rate by Subscription Type
+6. Top 10 customers with longest subscriptions
+7. Age group-wise churn analysis
+
+📄 **SQL Script:**  
+[ChurnAnalysis.sql](./ChurnAnalysis.sql)
+
+---
+
+## 📊 PART 2 – Excel Dashboard
+
+An interactive Excel dashboard was designed to visually communicate insights.
+
+### 📌 KPIs Included
+- Total Customers
+- % Churned
+- Average Feedback Score
+- Average Days Since Last Login
+
+### 📈 Visualizations
+
+- **Donut Chart:** Churned vs Active Customers  
+
+- **Bar Chart:** Churn Rate by Subscription Type  
+
+- **Line Chart:** Monthly Churn Trend  
+
+- **Scatter Plot:** Feedback Score vs Total Sessions
+
+### 🎛 Slicers / Filters
+- Subscription Type
+- Gender
+- Age Group
+
+📊 **Dashboard File:**  
+![dashboard](dashboard.png)
+
+---
+
+## 🔍 Key Insights
+
+- Younger customers (18–25) show higher churn probability
+- Monthly subscription plans have the highest churn rate
+- Low session attendance is a strong churn predictor
+- Customers giving low feedback scores are more likely to churn
+- Yearly subscribers are the most loyal segment
+
+📄 **Insight Summary:**  
+[ChurnSummary.txt](./ChurnSummary.txt)
+
+---
+
+## 💡 Business Recommendations
+
+- Improve engagement for low-session customers
+- Offer retention incentives for monthly subscribers
+- Focus on personalized communication for young users
+- Actively address customer complaints and low feedback
+- Launch re-engagement campaigns for inactive users
+
+---
+
+## 🎓 Learning Outcomes
+
+- Practical SQL-based business analysis
+- KPI creation using Excel formulas
+- Building interactive dashboards with slicers
+- Translating data into actionable business insights
+
+---
+
+## 📬 Contact
+
+## 👤 Author
+**Janki Dholariya**  
+Excel | DAX | Data Analytics  
+
+
+

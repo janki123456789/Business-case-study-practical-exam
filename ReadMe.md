@@ -104,7 +104,5 @@ An interactive Excel dashboard was designed to visually communicate insights.
 - Customers giving low feedback scores are more likely to churn
 - Yearly subscribers
 
-## 📬 Contact
-
 ## 👤 Author
 **Janki Dholariya**   
